@@ -1,0 +1,133 @@
+
+
+
+/* Menu-Mobile */
+
+.menu-mobile{
+    background-color:rgba(178, 34, 34, 0.801);
+    backdrop-filter: blur(10px);
+    width: 370px;
+    height: 500px;
+    position: absolute;
+    left: -370px;
+    top: 110px;
+    display: none;
+    position: fixed
+}
+
+.menu-mobile .titulo{
+    color: white;
+    align-items: center;
+    margin-left: 240px;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 20px;
+    
+}
+
+.btnFecha{
+    position: relative;
+    left: 5px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.btnFecha:hover{
+    color: black;
+}
+
+.menu-mobile ul{
+    list-style: none;
+}
+
+.menu-mobile ul li{
+    line-height: 30px;
+}
+
+.menu-mobile ul li a{
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 5px;
+    transition: 0.5s;
+}
+
+.menu-mobile ul li a:hover{
+    color: rgb(49, 1, 1);
+    transition: 0.5s;
+}
+
+.menu-mobile ul ul li a{
+    font-size: 16px;
+    width: 350px;
+    font-weight: 300;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.menu-mobile ul ul li a:hover{
+   background-color: antiquewhite;
+}
+
+.menu-mobile ul ul{
+    display: none;
+}
+
+.menu-mobile ul .itens-drop.mostra{
+    display: block;
+}
+
+.btnAbra{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    top: 160px;
+    color: darkred;
+    cursor: pointer;
+}
+
+.btnAbra span{
+    font-size: 35px;
+}
+
+.menu-mobile.mostra{
+    left: 0;
+} 
+.abrir-menu{
+    display: none;
+    font-size: 14px;
+    margin-left: 18px;
+    
+}
+.txt-abrir {
+    position: absolute;
+    margin-left: 40px;
+}
+
+.menu-mobile ul li a span{
+    font-size: 30px;
+    position: absolute;
+    right: 90px;
+    margin-top: 2px;
+}
+
+.menu-mobile ul li a span.girar{
+    transform: rotate(90deg);
+}
+
+
+@media screen and (max-width:789px){
+
+    .nav-menu{
+        display: none;
+      }
+
+      .menu-mobile{
+        display: block;
+        margin-top: 50px;
+        
+      }
+
+}
