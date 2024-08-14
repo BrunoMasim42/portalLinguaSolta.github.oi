@@ -95,9 +95,16 @@ section> .social-midia{
     display: block;
 }
 
+.texto{
+    text-decoration: none;
+    list-style-type: none;
+}
+
 .texto-topo h1{
+    color: #0c0c0c;
     margin-top: 30px;
     text-align: center;
+    
 }
 
 .texto-topo h1 span{
