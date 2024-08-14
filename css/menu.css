@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
 }
+
+.new-amsterdam-regular {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 html{
     height: auto;
@@ -20,38 +29,82 @@ html{
     justify-content: space-between;
 }
 
-header> .interface{
-    width: 1200px;
-    height: 300px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f7edc0;
-}
+
 
 header{
+    background-color: #76c1f3;
     width: 100%;
-    padding: 40px 4%;
+    padding: 20px 4%;
     
-   
+  
+}
+
+.menu-container{
+    top: 10pxS;
 }
 
 header .logo img{
-    width: 100px;
+    width: 180px;
+    padding: 25px;
 }
 
-header ul{
+.nav-menu ul{
     list-style-type: none;
+    top: 20px;
 }
 
-header ul li{
+.nav-menu ul li{
     display: inline-block;
     margin: 0 40px;
 }
 
-header ul li a{
-    color: #074790;
+.nav-menu  a{
+    color: #f9fafc;
     text-decoration: none;
+    font-size: 18px;
 }
+
+.nav-menu a:hover{
+  color: #dc111e;
+  transition: .5s;
+}
+
+
+
+.button{
+    padding: 15px 35px;
+    background-color: #630101;
+    color: #fff;
+    border-radius: 120px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.button span{
+    font-size: 12px;
+    position: relative;
+    z-index: 999999;
+}
+
+.button::before{
+    content: '';
+    background-color: #e0d61a;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: var(--eixoY);
+    left: var(--eixoX);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width .5s, height .5s;
+}
+
+.button:hover::before{
+    width: 1000px;
+    height: 1000px;
+}
+
+
+
 
