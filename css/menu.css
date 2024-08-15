@@ -19,7 +19,7 @@ html{
 }
 
 .menu-container{
-    max-width: 1200px;
+    max-width: 1200vw;
     margin: auto;
 }
 
@@ -33,14 +33,17 @@ html{
 
 header{
     background-color: #76c1f3;
-    width: 100%;
-    padding: 20px 4%;
-    
+    opacity: 90%;
+    width: 100vw;
+    height: 25vh;
+    padding: 10px 4%;
+    position: fixed;
+    z-index: 99999;
   
 }
 
 .menu-container{
-    top: 10pxS;
+    top: 10px;
 }
 
 header .logo img{

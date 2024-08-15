@@ -32,6 +32,7 @@ body{
     padding: 20px 70px;
     position: relative;
     transition: all 0.2s;
+    top: 150px;
 }
 
 
@@ -117,6 +118,11 @@ section> .social-midia{
     font-size: 20px;
 }
 
+.textoPrincipal a{
+    text-decoration: none;
+    color: #125db2;
+}
+
 /* carrossel */
 
 .carrosel-topo .interface{
@@ -177,6 +183,9 @@ section> .social-midia{
 
 /* Traco */
 
+.container-traco{
+    width: 1100px;
+}
 .traco .interface {
     display: flex;
     align-items: center;
@@ -185,8 +194,8 @@ section> .social-midia{
 .traco h1{
     align-items: center;
     border: 1px solid #845202;
-    width: 1200px;
-    margin-left: 30px;
+    width: 900px;
+    margin-left: 100px;
     
 }
 
