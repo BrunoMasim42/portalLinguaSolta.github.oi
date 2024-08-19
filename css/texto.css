@@ -14,11 +14,13 @@
 }
 
 section{
+    display: flex;
     text-align: center;
   
 }
 
-section.historia .interface{
+.historia .interface{
+    display: flex;
     padding: 40px 4%;
     background-color: rgba(255, 228, 196, 0.836);
     
@@ -34,7 +36,7 @@ section.historia .interface{
 }
 
 .titulo{
-    margin-top: 200px;
+ 
 }
  .interface  .txt-historia{
     margin-left: 220px;
